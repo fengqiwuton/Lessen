@@ -25,7 +25,7 @@ public class Jdbc {
         Connection connect = driver.connect(url, properties);
 
 
-        //3.执行sql and
+        //3.执行sql
 
         String sql = "insert into users values(1, 'huang', 'home')";
         //创建statement对象
